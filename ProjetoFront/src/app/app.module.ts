@@ -12,6 +12,13 @@ import {MatTableModule} from '@angular/material/table';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatTooltipModule} from '@angular/material/tooltip';
 
+
+
+
+
+
+
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LancamentoCadastroComponent } from './lancamento-cadastro/lancamento-cadastro.component';
@@ -22,6 +29,7 @@ import { PessoaCadastroComponent } from './pessoa-cadastro/pessoa-cadastro.compo
 import { PessoaGridComponent } from './pessoa-grid/pessoa-grid.component';
 import { PessoaPesquisaComponent } from './pessoa-pesquisa/pessoa-pesquisa.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
@@ -34,6 +42,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     PessoaGridComponent,
     PessoaPesquisaComponent
   ],
+
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -49,7 +58,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatPaginatorModule,
     MatTooltipModule
   ],
+
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
